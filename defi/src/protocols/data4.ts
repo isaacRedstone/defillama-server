@@ -22649,6 +22649,14 @@ const data4: Protocol[] = [
     module: "cap-money/index.js",
     twitter: "capmoney_",
     audit_links: ["https://github.com/cap-labs-dev/cap-audits"],
+    oraclesBreakdown: [
+      {
+        name: "RedStone",
+        type: "Primary",
+        proof: ["https://docs.cap.app/concepts/oracles"],
+        chains: ["Ethereum"]
+      }
+    ],
     github: ["cap-labs-dev"],
     listedAt:1755167300
   },
@@ -23306,14 +23314,14 @@ const data4: Protocol[] = [
     symbol: "LPT",
     url: "https://www.livepeer.org/",
     description: "Livepeer is a decentralized video infrastructure that lets developers stream live or on-demand video and run AI-powered processing at lower cost than centralized platforms",
-    chain: "Arbitrum",
+    chain: "Ethereum",
     logo: `${baseIconsUrl}/livepeer.jpg`,
     audits: "0",
     audit_note: null,
     gecko_id: null,
     cmcId: null,
     category: "Video Infrastructure",
-    chains: ["Arbitrum"],
+    chains: ["Ethereum"],
     module: "dummy.js",
     twitter: "livepeer",
   },
